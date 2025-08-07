@@ -54,7 +54,7 @@ form {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-[#AB8C95] via-[#000000] to-[#8E97C5];
   }
   .gradient-border {
-    @apply bg-gradient-to-b from-light-blue-100 to-light-blue-200 p-4 rounded-2xl;
+    @apply bg-gradient-to-b from-light-blue-100 to-light-blue-200 p-4 rounded-2xl h-full;
   }
   .primary-button {
     @apply primary-gradient text-white rounded-full px-4 py-2 cursor-pointer w-full;
@@ -89,7 +89,7 @@ form {
   }
 
   .resume-card-header {
-    @apply flex flex-row gap-2 justify-between min-h-[110px] max-sm:flex-col items-center max-md:justify-center max-md:items-center;
+    @apply flex flex-row gap-2 justify-between min-h-[110px]  items-center max-md:justify-center max-md:items-center;
   }
 
   .feedback-section {
