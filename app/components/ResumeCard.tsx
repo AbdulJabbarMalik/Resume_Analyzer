@@ -42,7 +42,7 @@ const ResumeCard = ({
             </h3>
           )}
           {!companyName && !jobTitle && (
-            <h3 className="font-bold !text-black">Resume</h3>
+            <h3 className="font-bold !text-black text-2xl">Your Resume</h3>
           )}
         </div>
         <div className="flex-shrink-0">

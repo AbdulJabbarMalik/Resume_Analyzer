@@ -104,7 +104,7 @@ const Upload = () => {
     const companyName = formData.get("company-name") as string;
     const jobTitle = formData.get("job-title") as string;
     const jobDescription = formData.get("job-description") as string;
-    if (!file || !companyName || !jobTitle || !jobDescription) {
+    if (!file) {
       alert("Please fill in all fields and upload a resume.");
       return;
     }
