@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
+    <nav className="navbar shadow-lg">
         <Link to="/">
         <p className='text-2xl font-bold text-gradient'>Resume Analyzer</p>
         </Link>
